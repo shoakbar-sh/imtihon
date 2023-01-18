@@ -1,0 +1,809 @@
+.intro {
+   margin-left: 165px;
+   margin-top: 94px;
+
+   hr {
+      width: 1185px;
+      border-color: $grayish;
+      opacity: 0.15;
+   }
+
+   &-card {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 48px;
+
+      &--text {
+         color: $grayish;
+
+         h1 {
+            font-size: 40px;
+            margin-top: 0;
+         }
+      }
+
+      &--item {
+         p {
+            width: 635px;
+            margin-left: 335px;
+            line-height: 30px;
+            font-size: 16px;
+            opacity: 0.6;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         }
+
+         img {
+            margin-left: 335px;
+            margin-top: 24px;
+            margin-bottom: 48px;
+         }
+      }
+   }
+
+   &-wrap {
+      display: flex;
+      margin-top: 47px;
+
+      &--text {
+         h1 {
+            width: 250px;
+            font-size: 40px;
+         }
+      }
+
+      &--input {
+         margin-left: 300px;
+
+         .form {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+            strong {
+               position: absolute;
+               font-weight: 600;
+               margin-bottom: 10px;
+               color: $grayish;
+               opacity: 0.8;
+            }
+
+            .male {
+               margin-top: 4px;
+            }
+
+            .email {
+               margin-top: 107px;
+               margin-left: -635px;
+            }
+
+            .mass {
+               margin-top: 126px;
+               margin-left: -635px;
+            }
+
+            .name {
+               margin-top: 55px;
+               margin-bottom: 55px;
+            }
+
+            input {
+               margin-top: 35px;
+               width: 635px;
+               height: 48px;
+               padding: 16px;
+               background-color: rgb(221, 221, 221);
+               // opacity: 0.1;
+               border: none;
+
+               &::placeholder {
+                  font-size: 13px;
+                  font-weight: 400;
+                  color: $grayish;
+                  opacity: 0.4;
+               }
+            }
+
+            textarea {
+               width: 635px;
+               height: 96px;
+               background-color: rgb(221, 221, 221);
+               padding: 16px;
+               border: none;
+               margin-bottom: 37px;
+
+               &::placeholder {
+                  font-size: 13px;
+                  opacity: 0.8;
+               }
+            }
+         }
+
+         a {
+            text-decoration: none;
+            color: white;
+            background-color: $dark;
+            padding: 17px 32px;
+            letter-spacing: 2px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 400;
+            font-size: 12px;
+         }
+      }
+   }
+}
+
+// 1518
+
+@media only screen and (max-width: 992px) {
+   .intro {
+      margin-left: 130px;
+      margin-top: 130px;
+
+      hr {
+         width: 690px;
+         border-color: $grayish;
+         opacity: 0.15;
+      }
+
+      &-card {
+         display: flex;
+         margin-top: 48px;
+
+         &--text {
+            color: $grayish;
+
+            h1 {
+               width: 300px;
+               font-size: 40px;
+               margin-top: 0;
+            }
+         }
+
+         &--item {
+            p {
+               margin-top: 0;
+               width: 635px;
+               margin-left: 05px;
+               line-height: 30px;
+               font-size: 16px;
+               opacity: 0.6;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+
+            img {
+               margin-left: 5px;
+               margin-top: 24px;
+               margin-bottom: 48px;
+            }
+         }
+      }
+
+      &-wrap {
+         display: flex;
+         flex-wrap: wrap;
+         margin-top: 47px;
+
+         &--text {
+            h1 {
+               margin-left: 25px;
+               font-size: 40px;
+            }
+         }
+
+         &--input {
+            margin-left: 25px;
+
+            .form {
+               font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+               strong {
+                  position: absolute;
+                  font-weight: 600;
+                  margin-bottom: 10px;
+                  color: $grayish;
+                  opacity: 0.8;
+               }
+
+               .male {
+                  margin-top: 4px;
+               }
+
+               .email {
+                  margin-top: 107px;
+                  margin-left: -667px;
+               }
+
+               .mass {
+                  margin-top: 96px;
+                  margin-left: -667px;
+               }
+
+               .name {
+                  margin-top: 30px;
+                  margin-bottom: 50px;
+               }
+
+               input {
+                  margin-bottom: 30px;
+                  width: 667px;
+                  height: 48px;
+                  padding: 16px;
+                  background-color: rgb(221, 221, 221);
+                  border: none;
+
+                  &::placeholder {
+                     font-size: 13px;
+                     font-weight: 400;
+                     color: $grayish;
+                     opacity: 0.4;
+                  }
+               }
+
+               textarea {
+                  width: 667px;
+                  height: 96px;
+                  background-color: rgb(221, 221, 221);
+                  padding: 16px;
+                  border: none;
+                  margin-bottom: 37px;
+
+                  &::placeholder {
+                     font-size: 13px;
+                     opacity: 0.8;
+                  }
+               }
+            }
+
+            a {
+               text-decoration: none;
+               color: white;
+               background-color: $dark;
+               padding: 17px 32px;
+               letter-spacing: 2px;
+               font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+               font-weight: 400;
+               font-size: 12px;
+            }
+         }
+      }
+   }
+}
+
+// 992
+
+@media only screen and (max-width: 768px) {
+
+   .intro {
+      margin-left: 40px;
+      margin-top: 103px;
+
+      hr {
+         width: 659px;
+         border-color: $grayish;
+         opacity: 0.15;
+      }
+
+      &-card {
+         display: flex;
+         margin-top: 48px;
+
+         &--text {
+            color: $grayish;
+
+            h1 {
+               font-size: 40px;
+               margin-top: 0;
+            }
+         }
+
+         &--item {
+            p {
+               margin-top: 0;
+               width: 659px;
+               margin-left: 05px;
+               line-height: 30px;
+               font-size: 16px;
+               opacity: 0.6;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+
+            img {
+               margin-left: 5px;
+               margin-top: 24px;
+               margin-bottom: 48px;
+            }
+         }
+      }
+
+      &-wrap {
+         display: flex;
+         flex-wrap: wrap;
+         margin-top: 47px;
+
+         &--text {
+            h1 {
+               margin-left: 0px;
+               font-size: 40px;
+            }
+         }
+
+         &--input {
+            margin-left: 0px;
+
+            .form {
+               font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+               strong {
+                  position: absolute;
+                  font-weight: 600;
+                  margin-bottom: 10px;
+                  color: $grayish;
+                  opacity: 0.8;
+               }
+
+               .male {
+                  margin-top: 4px;
+               }
+
+               .email {
+                  margin-top: 107px;
+                  margin-left: -659px;
+               }
+
+               .mass {
+                  margin-top: 96px;
+                  margin-left: -659px;
+               }
+
+               .name {
+                  margin-top: 30px;
+                  margin-bottom: 55px;
+               }
+
+               input {
+                  margin-bottom: 30px;
+                  width: 659px;
+                  height: 44px;
+                  padding: 16px;
+                  background-color: rgb(221, 221, 221);
+                  border: none;
+
+                  &::placeholder {
+                     font-size: 13px;
+                     font-weight: 400;
+                     color: $grayish;
+                     opacity: 0.4;
+                  }
+               }
+
+               textarea {
+                  width: 659px;
+                  height: 96px;
+                  background-color: rgb(221, 221, 221);
+                  padding: 16px;
+                  border: none;
+                  margin-bottom: 24px;
+
+                  &::placeholder {
+                     font-size: 13px;
+                     opacity: 0.8;
+                  }
+               }
+            }
+
+            a {
+               text-decoration: none;
+               color: white;
+               background-color: $dark;
+               padding: 15px 29px;
+               letter-spacing: 2px;
+               font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+               font-weight: 400;
+               font-size: 12px;
+            }
+         }
+      }
+   }
+}
+
+// 768
+
+@media only screen and (max-width: 576px) {
+
+   .intro {
+      margin-left: 40px;
+      margin-top: 82px;
+
+      hr {
+         width: 460px;
+         border-color: $grayish;
+         opacity: 0.15;
+      }
+
+      &-card {
+         display: flex;
+         margin-top: 48px;
+
+         &--text {
+            color: $grayish;
+
+            h1 {
+               font-size: 40px;
+               margin-top: 0;
+            }
+         }
+
+         &--item {
+            p {
+               margin-top: 0;
+               width: 470px;
+               margin-left: 05px;
+               text-transform: none;
+               line-height: 30px;
+               font-size: 16px;
+               opacity: 0.6;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+
+            img {
+               margin-left: 5px;
+               margin-top: 24px;
+               margin-bottom: 48px;
+            }
+         }
+      }
+
+      &-wrap {
+         display: flex;
+         flex-wrap: wrap;
+         margin-top: 32px;
+
+         &--text {
+            h1 {
+               margin-left: 0px;
+               font-size: 40px;
+            }
+         }
+
+         &--input {
+            margin-left: 0px;
+
+            .form {
+               font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+               strong {
+                  position: absolute;
+                  font-weight: 600;
+                  margin-bottom: 10px;
+                  color: $grayish;
+                  opacity: 0.8;
+               }
+
+               .male {
+                  margin-top: 4px;
+               }
+
+               .email {
+                  margin-top: 99px;
+                  margin-left: -450px;
+               }
+
+               .mass {
+                  margin-top:87px;
+                  margin-left: -450px;
+               }
+
+               .name {
+                  margin-top: 24px;
+                  margin-bottom: 50px;
+               }
+
+               input {
+                  margin-bottom: 30px;
+                  width: 450px;
+                  height: 44px;
+                  padding: 16px;
+                  background-color: rgb(221, 221, 221);
+                  border: none;
+
+                  &::placeholder {
+                     font-size: 13px;
+                     font-weight: 400;
+                     color: $grayish;
+                     opacity: 0.4;
+                  }
+               }
+
+               textarea {
+                  width: 450px;
+                  height: 86px;
+                  background-color: rgb(221, 221, 221);
+                  padding: 16px;
+                  border: none;
+                  margin-bottom: 37px;
+
+                  &::placeholder {
+                     font-size: 13px;
+                     opacity: 0.8;
+                  }
+               }
+            }
+
+            a {
+               text-decoration: none;
+               color: white;
+               background-color: $dark;
+               padding: 15px 29px;
+               letter-spacing: 2px;
+               font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+               font-weight: 400;
+               font-size: 12px;
+            }
+         }
+      }
+   }
+}
+
+//576
+
+@media only screen and (max-width: 480px) {
+
+   .intro {
+      margin-left: 40px;
+      margin-top: 82px;
+
+      hr {
+         width: 370px;
+         border-color: $grayish;
+         opacity: 0.15;
+      }
+
+      &-card {
+         display: flex;
+         margin-top: 48px;
+
+         &--text {
+            color: $grayish;
+
+            h1 {
+               font-size: 40px;
+               margin-top: 0;
+            }
+         }
+
+         &--item {
+            p {
+               width: 370px;
+               margin-left: 5px;
+               line-height: 25px;
+               font-size: 14px;
+            }
+
+            img {
+               margin-left: 5px;
+               margin-top: 24px;
+               margin-bottom: 48px;
+            }
+         }
+      }
+
+      &-wrap {
+         display: flex;
+         flex-wrap: wrap;
+         margin-top: 32px;
+
+         &--text {
+            h1 {
+               margin-left: 0px;
+               font-size: 40px;
+            }
+         }
+
+         &--input {
+            margin-left: 0px;
+
+            .form {
+               font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+               strong {
+                  position: absolute;
+                  font-weight: 600;
+                  margin-bottom: 10px;
+                  color: $grayish;
+                  opacity: 0.8;
+               }
+
+               .male {
+                  margin-top: 4px;
+               }
+
+               .email {
+                  margin-top: 107px;
+                  margin-left: -380px;
+               }
+
+               .mass {
+                  margin-top: 90px;
+                  margin-left: -380px;
+               }
+
+               .name {
+                  margin-top: 26px;
+                  margin-bottom: 50px;
+               }
+
+               input {
+                  margin-bottom: 30px;
+                  width: 380px;
+                  height: 44px;
+                  padding: 16px;
+                  background-color: rgb(221, 221, 221);
+                  border: none;
+
+                  &::placeholder {
+                     font-size: 13px;
+                     font-weight: 400;
+                     color: $grayish;
+                     opacity: 0.4;
+                  }
+               }
+
+               textarea {
+                  width: 380px;
+                  height: 76px;
+                  background-color: rgb(221, 221, 221);
+                  padding: 16px;
+                  border: none;
+                  margin-bottom: 37px;
+
+                  &::placeholder {
+                     font-size: 13px;
+                     opacity: 0.8;
+                  }
+               }
+            }
+
+            a {
+               text-decoration: none;
+               color: white;
+               background-color: $dark;
+               padding: 15px 29px;
+               letter-spacing: 2px;
+               font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+               font-weight: 400;
+               font-size: 12px;
+            }
+         }
+      }
+   }
+}
+
+//480
+
+@media only screen and (max-width: 375px) {
+
+   .intro {
+      margin-left: 35px;
+      margin-top: 40px;
+
+      hr {
+         width: 311px;
+         border-color: $grayish;
+         opacity: 0.15;
+      }
+
+      &-card {
+         display: flex;
+         margin-top: 48px;
+
+         &--text {
+            color: $grayish;
+
+            h1 {
+               font-size: 40px;
+               margin-top: -10px;
+            }
+         }
+
+         &--item {
+            p {
+               width: 311px;
+               margin-left: 5px;
+               line-height: 30px;
+               font-size: 15px;
+            }
+
+            img {
+               margin-left: 5px;
+               margin-top: 24px;
+               margin-bottom: 48px;
+            }
+         }
+      }
+
+      &-wrap {
+         display: flex;
+         flex-wrap: wrap;
+         margin-top: 32px;
+
+         &--text {
+            h1 {
+               margin-left: 0px;
+               font-size: 40px;
+            }
+         }
+
+         &--input {
+            margin-left: 0px;
+
+            .form {
+               font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+               strong {
+                  position: absolute;
+                  font-weight: 600;
+                  margin-bottom: 10px;
+                  color: $grayish;
+                  opacity: 0.8;
+               }
+
+               .male {
+                  margin-top: 4px;
+               }
+
+               .email {
+                  margin-top: 107px;
+                  margin-left: -311px;
+               }
+
+               .mass {
+                  margin-top: 96px;
+                  margin-left: -311px;
+               }
+
+               .name {
+                  margin-top: 30px;
+                  margin-bottom: 50px;
+               }
+
+               input {
+                  margin-bottom: 30px;
+                  width: 311px;
+                  height: 48px;
+                  padding: 16px;
+                  background-color: rgb(221, 221, 221);
+                  border: none;
+
+                  &::placeholder {
+                     font-size: 13px;
+                     font-weight: 400;
+                     color: $grayish;
+                     opacity: 0.4;
+                  }
+               }
+
+               textarea {
+                  width: 311px;
+                  height: 96px;
+                  background-color: rgb(221, 221, 221);
+                  padding: 16px;
+                  border: none;
+                  margin-bottom: 37px;
+
+                  &::placeholder {
+                     font-size: 13px;
+                     opacity: 0.8;
+                  }
+               }
+            }
+
+            a {
+               background-color: $dark;
+               padding: 15px 29px;
+               font-weight: 400;
+               font-size: 12px;
+            }
+         }
+      }
+   }
+}
+
+//375

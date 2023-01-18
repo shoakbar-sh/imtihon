@@ -1,0 +1,308 @@
+.main {
+   margin-top: 63px;
+   background-image: url(../images/Group16.svg);
+   background-repeat: no-repeat;
+   background-size: 1190px 660px;
+   width: 1218px;
+   height: 798px;
+   padding-top: 288px;
+   margin-left: 165px;
+
+   &-card {
+      width: 445px;
+      height: 357px;
+      background-color: white;
+
+      h1 {
+         width: 400px;
+         padding-top: 56px;
+         line-height: 50px;
+         height: 200px;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         margin-bottom: 103px;
+      }
+
+      a {
+         width: 200px;
+         height: 48px;
+         background-color: $dark;
+         display: flex;
+         padding-top: 18px;
+         padding-left: 20px;
+         text-decoration: none;
+         color: white;
+         font-size: 12px;
+         font-weight: 400;
+
+         &:hover{
+            background-color: $sligh;
+         }
+
+         img {
+            width: 16px;
+            height: 12px;
+            margin-right: 40px;
+            margin-left: 10px;
+         }
+      }
+
+   }
+}
+
+@media only screen and (max-width: 992px) {
+   .main {
+      margin-top: 43px;
+      background-image: url(../images/Group16\(2\).svg);
+      background-repeat: no-repeat;
+      background-size: 790px 460px;
+      width: 772px;
+      height: 650px;
+      padding-top: 187px;
+      margin-left: 80px;
+
+      &-card {
+         width: 345px;
+         height: 257px;
+         background-color: white;
+         margin-left: 47px;
+
+         h1 {
+            font-size: 25px;
+            width: 300px;
+            padding-top: 56px;
+            line-height: 35px;
+            height: 200px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin-bottom: 8px;
+         }
+
+         a {
+            background-color: $dark;
+            display: flex;
+            padding-top: 18px;
+            padding-left: 20px;
+            text-decoration: none;
+            color: white;
+            font-size: 12px;
+            font-weight: 400;
+
+            &:hover{
+               background-color: $sligh;
+            }
+
+            img {
+               width: 16px;
+               height: 12px;
+               margin-right: 40px;
+               margin-left: 10px;
+            }
+         }
+
+      }
+   }
+}
+
+@media only screen and (max-width: 768px) {
+   .main {
+      margin-top: 43px;
+      background-image: url(../images/Group16\(2\).svg);
+      background-repeat: no-repeat;
+      background-size: 626px 350px;
+      width: 626px;
+      height: 380px;
+      padding-top: 162px;
+      margin-left: 80px;
+
+      &-card {
+         width: 314px;
+         height: 278px;
+         margin-left: 47px;
+
+         h1 {
+            font-size: 20px;
+            width: 240px;
+            padding-top: 15px;
+            line-height: 30px;
+            height: 100px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin-bottom: 27px;
+         }
+
+         a {
+            background-color: $dark;
+            display: flex;
+            padding-top: 18px;
+            padding-left: 20px;
+            text-decoration: none;
+            color: white;
+            font-size: 12px;
+            font-weight: 400;
+
+            &:hover{
+               background-color: $sligh;
+            }
+
+            img {
+               width: 16px;
+               height: 12px;
+               margin-right: 40px;
+               margin-left: 10px;
+            }
+         }
+      }
+   }
+}
+
+@media only screen and (max-width: 576px) {
+   .main {
+      margin-top: 43px;
+      background-image: url(../images/Group16\(2\).svg);
+      background-repeat: no-repeat;
+      background-size: 526px 300px;
+      width: 485px;
+      height: 380px;
+      padding-top: 140px;
+      margin-left: 18px;
+
+      &-card {
+         width: 200px;
+         height: 149px;
+         background-color: white;
+         margin-left: 37px;
+
+         h1 {
+            font-size: 17px;
+            width: 190px;
+            padding-top: 10px;
+            line-height: 22px;
+            height: 100px;
+            margin-bottom: 9px;
+         }
+
+         a {
+            width: 160px;
+            height: 40px;
+            padding-top: 15px;
+            padding-left: 5px;
+            text-decoration: none;
+            color: white;
+            font-size: 12px;
+            font-weight: 400;
+
+            &:hover{
+               background-color: $sligh;
+            }
+
+            img {
+               width: 16px;
+               height: 12px;
+               margin-right: 27px;
+               margin-left: 10px;
+            }
+         }
+      }
+   }
+}
+
+@media only screen and (max-width: 480px) {
+   .main {
+      margin-top: 43px;
+      background-image: url(../images/Group16\(2\).svg);
+      background-repeat: no-repeat;
+      background-size: 426px 225px;
+      width: 385px;
+      height: 250px;
+      padding-top: 107px;
+      margin-left: 18px;
+
+      &-card {
+         width: 150px;
+         height: 109px;
+         background-color: white;
+         margin-left: 43px;
+
+         h1 {
+            font-size: 14px;
+            width: 140px;
+            padding-top: 10px;
+            line-height: 17px;
+            height: 100px;
+            margin-bottom: -20px;
+         }
+
+         a {
+            width: 100px;
+            height: 25px;
+            padding-top: 8px;
+            padding-left: -20px;
+            text-decoration: none;
+            color: white;
+            font-size: 9px;
+            font-weight: 400;
+
+            &:hover{
+               background-color: $sligh;
+            }
+
+            img {
+               width: 14px;
+               height: 8px;
+               margin-right: 5px;
+               margin-left: 10px;
+            }
+         }
+      }
+   }
+}
+
+@media only screen and (max-width: 375px) {
+   .main {
+      margin-top: 49px;
+      background-image: url(../images/Group16\(2\).svg);
+      background-repeat: no-repeat;
+      background-size: 280px 225px;
+      width: 280px;
+      height: 275px;
+      padding-top: 167px;
+      margin-left: 38px;
+      color: $grayish;
+
+      &-card {
+         width: 311px;
+         height: 148px;
+         background-color: white;
+         margin-left: -1px;
+
+         h1 {
+            font-size: 37px;
+            width: 311px;
+            padding-top: 10px;
+            line-height: 42px;
+            height: 168px;
+            margin-bottom: 72px;
+         }
+
+         a {
+            width: 200px;
+            height: 48px;
+            padding-top: 17px;
+            padding-left: -20px;
+            text-decoration: none;
+            color: white;
+            font-size: 12px;
+            font-weight: 400;
+
+            &:hover{
+               background-color: $sligh;
+            }
+
+            img {
+               width: 16px;
+               height: 12px;
+               margin-right: 40px;
+               margin-left: 16px;
+            }
+         }
+      }
+   }
+}
